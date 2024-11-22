@@ -1,0 +1,25 @@
+# Snake Game Using Pygame
+
+A classic Snake game built with Pygame, featuring simple mechanics like snake movement, food consumption, and growth, as well as collision detection with the snake's body and the game boundaries.
+
+## Features:
+- **Snake Movement:** Use the arrow keys (Up, Down, Left, Right) to control the snake's direction.
+- **Snake Growth:** The snake grows longer each time it eats food.
+- **Increasing Difficulty:** The snake's speed increases as it grows longer, making the game more challenging.
+- **Game Over Condition:** The game ends when the snake collides with itself or the walls.
+- **Game Restart:** Press `R` to restart the game after a game over. Press `Esc` to quit the game.
+
+## How to Play:
+1. Run the game by executing the `SnakeGame.py` script.
+2. Use the arrow keys (`Up`, `Down`, `Left`, `Right`) to navigate the snake.
+3. Eat the magenta-colored food to grow the snake's length.
+4. Avoid crashing into walls or the snake's own body.
+5. The snake's speed will increase as it eats more food.
+6. When the game ends, press `R` to play again or `Esc` to quit.
+
+## Requirements:
+To run the game, you need to have Python and Pygame installed on your system.
+
+### Install Pygame:
+```bash
+pip install pygame
